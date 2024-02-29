@@ -17,6 +17,7 @@ const DarkThemeProvider = ({ children }: Props) => {
 
   if (!mounted) {
     return <>{children}</>;
+    // return null;
   }
 
   return (
